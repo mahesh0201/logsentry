@@ -19,7 +19,7 @@ Built as a small SOC / blue-team exercise: parse -> detect -> triage -> report.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/logsentry.git
+git clone https://github.com/mahesh0201/logsentry.git
 cd logsentry
 python samples/generate_samples.py          # creates synthetic samples/auth.log and samples/access.log
 python -m logsentry --auth samples/auth.log --year 2026 --access samples/access.log
